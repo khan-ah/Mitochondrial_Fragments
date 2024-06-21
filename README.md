@@ -26,4 +26,26 @@ Macro_mito_fragment:
 // ==========================================================================
 
 
-Macro_mito_fragment:
+Macro_mito_fragment_GetData.ijm:
+
+// This macro is used to to measure the intensity of Green and Red 
+// Florescene for each mitochondrial fragment.
+//
+// BEFORE USING THIS MACRO:
+// ------------------------
+// 1. Use the macro_mito_fragment.ijm to identify mitochondrial fragments 
+//  from the MitoGraph generated _binary.tif files. 
+//  This will create a csv file called "Results" and individual tif files.
+//  in each of the Cropped Cell folder corresponding to each individual fragment. 
+// 
+// USING THIS MACRO:
+// ------------------------
+// 1. Click run to execute the macro.
+// 2. Select the folder containing single cells stacks, 
+//  MitoGraph output files, and files created after executing 
+//  macro_mito_fragment.ijm i.e. Results.csv and tif files 
+//  corresponding to each individual mitochondrial fragment.  
+// 3. Two csv files named as "MitoFrag_" and "MitoFrag_R_" would be generated
+//  containg the Green and Red intensity data such as Area, IntDen, RawIntDen etc. 
+//  corresponding to each fragment previously identified. 
+// ==========================================================================
