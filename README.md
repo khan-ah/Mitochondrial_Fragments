@@ -8,7 +8,7 @@ Example_cell.zip contains raw cropped images and MitoGraph-generated files. Extr
 
 This macro is used to identify connected regions (Fragments) in the mitochondrial network.
 
-BEFORE USING THIS MACRO:
+Before using this macro:
 ------------------------
 1. Use GenFramesMaxProjs.ijm macro to generate a z-stack, 
    where each slice corresponds to the max projection of a z-stack. A file named MaxProjs.tif will be created inside the chosen folder. 
@@ -20,7 +20,7 @@ BEFORE USING THIS MACRO:
 3. Perform Mitograph and save all the output files in the RootFolder 
    containing the cropped cell images.
 
-HOW TO USE THIS MACRO:
+How to use this macro:
 ------------------------
 1. Click run to execute the macro.
 2. Select the folder containing the MitoGraph output files including "_binary.tif" and cropped single cell image in "tif" format.
@@ -32,14 +32,14 @@ HOW TO USE THIS MACRO:
 
 This macro is used to measure the intensity of Green and Red Fluorescence for each mitochondrial fragment.
 
-BEFORE USING THIS MACRO:
+Before using this macro:
 ------------------------
 1. Use the macro_mito_fragment.ijm to identify mitochondrial fragments 
   from the MitoGraph generated _binary.tif files. 
   This will create a CSV file called "Results" and individual tif files.
   in each of the Cropped Cell folders corresponding to each individual fragment. 
  
-USING THIS MACRO:
+How to use this macro:
 ------------------------
 1. Click run to execute the macro.
 2. Select the folder containing single cells stacks, MitoGraph output files, and files created after
